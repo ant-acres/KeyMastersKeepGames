@@ -128,6 +128,7 @@ class WitchfireGame(Game):
     @functools.cached_property
     def non_calamity_maps(self) -> List[str]:
         return [
+            "Island of the Damned",
             "Witch Mountain",
         ]
     
